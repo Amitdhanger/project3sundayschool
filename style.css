@@ -1,0 +1,235 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Zanabazar+Square&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    width:1200px;
+    margin: 0 auto;
+    
+   /* background-color: red;*/
+}
+
+.innercontainer{
+    width:100%;
+    float:left;
+   /* background-color: yellow;*/
+   /* height:600px;*/
+   padding-top: 30px;
+   background-color: black;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   
+    
+}
+
+.cardbox{
+    width:60%;
+   /*height: 700px;*/
+    background-color: green;
+    
+    background-color:  rgb(238, 192, 178);
+    
+}
+
+.heading{
+    width:100%;
+    float:left;
+   /* height:100px;*/
+    padding-top:30px;
+    text-align: center;
+    font-family: 'Noto Sans Zanabazar Square', sans-serif;
+   /* border: 1px solid pink;*/
+   font-size: 24px;
+}
+
+.underline{
+    width:100%;
+    float:left;
+    /*height:15px;*/
+   
+    text-align: center;
+    margin-top:5px;
+    
+}
+
+.border{
+    width:60px;
+    margin:0 auto;
+    border-top:2px solid black;
+
+}
+
+
+
+.card{
+    width:100%;
+    float:left;
+   /* height:400px;*/
+   
+    margin-top:18px;
+    margin-bottom: 10px;
+    
+    
+    
+}
+
+.user-card{
+    width:28%;
+    float:left;
+   /* height:300px;*/
+   /* border:1px solid white;*/
+    margin-left:30px;
+    text-align: center;
+    font-family: 'Noto Sans Zanabazar Square', sans-serif;
+    font-size: 18px;
+
+}
+
+ .firstbox{
+    margin-top: 10px;
+}
+
+.lastbox{
+    margin-top: 10px;
+}
+
+.secondbox{
+    padding-top:10px;
+    padding-bottom:30px;
+    background-color: white;
+}
+
+.cardimage{
+    width:100%;
+    float:left;
+   /* border:1px solid red;*/
+}
+
+.cardtext{
+    padding-top: 10px;
+    text-align: center;
+
+}
+
+.heading2{
+    font-size:18px;
+    
+    padding-top:5px;
+   /* border:1px solid red;*/
+   font-size: 18px;
+
+}
+
+.simpletext{
+    font-size:12px;
+    
+    padding-top:5px;
+    color:rgb(61, 61, 61);
+   /* border:1px solid red;*/
+
+}
+
+.date{
+    font-size:15px;
+    padding-bottom: 5px;
+    padding-top:5px;
+    color:  rgb(181, 144, 109);;
+  /*  border:1px solid red;*/
+
+}
+
+.button{
+    padding:4px 18px 4px 18px;
+    
+    display:inline-block;
+    font-size: 15px;
+    color:white;
+    font-family: 'Noto Sans Zanabazar Square', sans-serif;
+    background-color:  rgb(174, 131, 112);
+    cursor: pointer;
+}
+
+.button1{
+    padding:4px 18px 4px 18px;
+    
+    display:inline-block;
+    font-size: 15px;
+    color:white;
+    font-family: 'Noto Sans Zanabazar Square', sans-serif;
+    background-color:  rgb(174, 131, 112);
+    cursor: pointer;
+}
+
+.popup{
+    color:pink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    display:none;
+}
+
+.close{
+    padding:4px 18px 4px 18px;
+    
+    display:inline-block;
+    font-size: 15px;
+    color:white;
+    font-family: 'Noto Sans Zanabazar Square', sans-serif;
+    background-color:  rgb(174, 131, 112);
+    cursor: pointer;
+    margin-top:5px;
+}
+
+@media screen and (min-width:720px) and (max-width:1200px) {
+
+    .container{
+        width:720px;
+    }
+
+
+    .user-card{
+        width:45%;
+        margin-left: 10px;
+    }
+
+    .lastbox{
+        
+        margin-left:80px;
+        margin-top:20px;
+    }
+    
+}
+
+
+@media screen and (min-width:320px) and (max-width:720px){
+    .container{
+        width:320px;
+    }
+
+    .card{
+        width:100%;
+        float:left;
+    }
+
+    .user-card{
+        width:100%;
+        text-align: left;
+        margin-left:0;
+    }
+
+    .cardimage{
+        text-align: center;
+    }
+}
+
